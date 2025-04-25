@@ -23,9 +23,6 @@
   "rgblight": {
     "led_count": 4
   },
-  "ws2812": {
-    "pin": "GP17"
-  },
   "processor": "RP2040",
   "bootloader": "rp2040",
   "board": "GENERIC_RP_RP2040",
@@ -38,7 +35,6 @@
     "caps_lock": "GP15",
     "num_lock": "GP14",
     "scroll_lock": "GP13",
-    "compose": "GP29",
     "on_state": 0
   },
   "debounce": 20,
