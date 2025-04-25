@@ -22,6 +22,14 @@ Here is the pinout of the Tenstar Robot version:
 Here is the pinout of the official version:
 ![Raspberry Pi Pico](images/Official_Pinout.jpeg)
 
+## Note on the Firmware
+
+The default QMK configuration and keymap is a standard QWERTY layout, and includes all 4 LED's. The keypad LED is linked to the `keypad` button on the F-row, and corresponds to the second layer. The `program` button only works on this second layer to avoid accidentally programming the keyboard. Once you are on the second layer, simply press the `program` keyboard, and you will be able to flash your uf2 file.
+
+## Note on the PCB
+
+I have exported the PCB gerber files according to JLCPCB's recommended settings and have ordered and tested the files. The included zip file should work just fine for ordering, but feel free to check out the KiCAD files and generate your own gerber files. 
+
 ## Parts List
 
 ### Components
