@@ -22,6 +22,26 @@ Here is the pinout of the Tenstar Robot version:
 Here is the pinout of the official version:
 ![Raspberry Pi Pico](images/Official_Pinout.jpeg)
 
+## Parts List
+
+### Components
+
+| Position | Description | Qty | Notes |
+| -------- | ----------- | --- | ----- |
+| J1-J4    | Molex 39-53-2135 | 2 - 6  | [Link](https://octopart.com/39-53-2135-molex-7670149?r=sp)
+| J3-J4    | Molex 39-53-2134 | 0 - 2  | Contoured only, [Link](https://octopart.com/search?q=Molex+39-53-2134)
+| U1       | Header pins (1x20) | 2 | Should come with dev board
+| D1-D4    | 3.0mm LED | 4 | [Amazon](https://a.co/d/90uynIs)
+| R1-R4    | various resistors | 4 | Affects brightness
+
+Additional notes: The pillzmod version used 1.8mm LED's, but the 3mm ones fit as well. Since I used different color LED's, I used different resistors each. After testing with a 3.3V supply, this worked for me:
+ * Pink LED: 1K resistor
+ * Green LED: 3.9K resistor
+ * Blue LED: 2.2K resistor
+ * Light Green LED: 100 Ohm resistor
+
+Please see the [KinT](https://github.com/kinx-project/kint) and [pillzmod](https://github.com/dcpedit/pillzmod) projects for more details on parts and ideas for cable management. 
+
 ## Images of Final Build
 
 ![Closeup Inside](images/Installed_Closeup.jpg)
