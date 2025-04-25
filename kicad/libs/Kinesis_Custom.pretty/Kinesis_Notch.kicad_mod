@@ -1,0 +1,98 @@
+(footprint "Kinesis_Notch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 4.3mm, no annular, M4")
+	(tags "mounting hole 4.3mm no annular m4")
+	(property "Reference" "REF**"
+		(at -0.2 2.7 180)
+		(layer "F.SilkS")
+		(uuid "92ed0830-8be4-4979-9d6e-7e5d2974037e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Kinesis_Notch"
+		(at 0 5.3 180)
+		(layer "F.Fab")
+		(uuid "70cba9a6-6956-45eb-afaf-7cd125b674d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "d311f4e6-5502-41ef-a8a7-71e202618273")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a7923269-a6d9-4e3d-8ce6-3f8bb38fb03e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "36dc2abb-61a8-4105-8370-204326fa1bfe")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e865a0dc-9360-40c0-8371-be73500331ff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 0 180)
+		(layer "F.Fab")
+		(uuid "ba361f7c-817e-434a-833c-88ad207e71c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 4.75 2.25)
+		(drill oval 4.75 2.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c9d729b3-29c9-4ecd-858c-349ca5f040b2")
+	)
+	(embedded_fonts no)
+)
